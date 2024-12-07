@@ -16,14 +16,14 @@ struct FollowersView: View {
             if followers.isEmpty {
                 Text("User have no followers")
             } else {
-                VStack {
+                LazyVGrid(columns: columns) {
                     ForEach(followers) { index in
                         VStack {
                             AsyncImage(url: URL(string: index.avatar_url)) { image in
                                 image.resizable()
                                     .frame(width: 100, height: 100)
                                     .scaledToFit()
-                                    .cornerRadius(15)
+                                    .cornerRadius(50)
                             } placeholder: {
                                 ProgressView()
                             }
