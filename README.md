@@ -8,4 +8,4 @@ I coded this just for practice implemeting vip.
 
 - **Search GitHub Users**: Input a username to fetch their follower data from the GitHub API.
 - **View Followers**: Navigate from the homepage to a detailed followers page, implemented in SwiftUI.
-- **Clean Architecture**: The app is designed using the VIP Clean Swift architecture for better scalability and maintainability.
+- **Clean Swift Architecture**: The app is designed using the VIP Clean Swift architecture for better scalability and maintainability.
