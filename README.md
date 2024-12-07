@@ -1,8 +1,8 @@
 
 ## Overview
 
-GitHubFollowers is an iOS application built with a UIKit-based UI, adhering to the VIP Clean Swift architecture. The app allows users to search for GitHub users and view their followers. The starting homepage is implemented in VIP Clean Swift, while the followers page transitions to a SwiftUI view, demonstrating seamless integration between UIKit and SwiftUI.
-I coded this as a way to apply and practice my knowledge.
+Get followers list by username. App starting homepage is implemented in VIP Clean Swift, while the followers page transitions to a SwiftUI view.
+I coded this just for practice implemeting vip.
 
 ## Features
 
